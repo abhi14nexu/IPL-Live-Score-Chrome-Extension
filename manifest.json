@@ -1,0 +1,10 @@
+{
+    "name": "IPL Live Score",
+    "description": "A chrome extension for checking live scores of IPL matches",
+    "version": "0.1",
+    "manifest_version": 2,
+    "browser_action":{
+        "default_icon": "ipl_logo.png", 
+        "default_popup": "popup.html" 
+    }
+}
