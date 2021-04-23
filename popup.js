@@ -7,7 +7,7 @@ window.onload = function () {
     .then((response) => response.json())
     .then((data) => {
       console.log(data);
-      var m1t = data.data[13].title;
+      var m1t = data.data[12].title;
       m1title.textContent = m1t;
 
       uid1 = data.data[0].unique_id;
